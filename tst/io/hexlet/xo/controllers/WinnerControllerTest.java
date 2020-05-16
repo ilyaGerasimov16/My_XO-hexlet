@@ -91,4 +91,5 @@ public class WinnerControllerTest {
         field.setFigure(new Point(2, 0), Figure.X);
         assertNull( winnerController.getWinner(field));
     }
+
 }
